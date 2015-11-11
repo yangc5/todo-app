@@ -13,5 +13,6 @@ $(function() {
 
     var todoLayoutView = new TodoLayoutView({ collection: todos });
     todoLayoutView.render();
+
     $('#content').html(todoLayoutView.el);
 });
